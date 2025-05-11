@@ -1,0 +1,45 @@
+.size-option {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.size-option.selected {
+    background-color: #0d6efd;
+    color: white;
+    border-color: #0d6efd;
+}
+
+.size-option.disabled {
+    background-color: #eee;
+    color: #999;
+    border-color: #ccc;
+    cursor: not-allowed;
+}
+
+
+.color-option {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.color-option.selected {
+    border-color: #000;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+#productImage{
+    max-width: 80%;
+    height: auto;
+    max-height: 500px;
+    object-fit: contain;
+    margin: 0 auto;
+}
